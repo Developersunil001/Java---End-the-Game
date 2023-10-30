@@ -19,7 +19,5 @@ public class object{
     sd2.name = "aman";
     sd2.rollno = 45;
     sd2.printdata(); 
-
-
   }
 }
