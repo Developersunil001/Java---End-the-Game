@@ -1,15 +1,14 @@
 // Java Methods 
 public class methods {
-     int lisence_id;
-     String name;
+    String name;
 
-     public void eat() {
-          System.out.println(name + " " + "eats");
-     }
+    public void dog(){
+     System.out.println(name + " " + "eats");
+    }
 
-     public static void main(String[] args) {
-          methods dog = new methods();
-          dog.name = "brusli";
-          dog.eat();
-     }
+    public static void main(String[] args) {
+     methods eats = new methods();
+     eats.name = "brusli";
+     eats.dog();
+    }
 }
